@@ -16,6 +16,7 @@
     "moment": "2.18.1",
     "monapt": "1.0.4",
     "rematch": "0.1.3",
+    "typescript": "2.3.4",
     "when": "3.7.8"
   }
 }

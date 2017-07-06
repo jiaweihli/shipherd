@@ -13,6 +13,7 @@
     "chalk": "2.1.0",
     "loglevel": "1.4.1",
     "moment": "2.18.1",
-    "monapt": "1.0.4"
+    "monapt": "1.0.4",
+    "rematch": "0.1.3"
   }
 }

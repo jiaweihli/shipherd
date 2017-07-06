@@ -5,5 +5,8 @@
   "main": "src/shipherd.ts",
   "repository": "https://github.com/jiaweihli/shipherd.git",
   "author": "Kevin Li <jiawei.h.li@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.16.2"
+  }
 }

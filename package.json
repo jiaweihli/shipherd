@@ -9,6 +9,7 @@
   "dependencies": {
     "@types/chalk": "0.4.31",
     "@types/loglevel": "1.4.29",
+    "@types/node": "6.0.79",
     "@types/when": "2.4.29",
     "axios": "0.16.2",
     "chalk": "2.1.0",

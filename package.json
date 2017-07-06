@@ -1,0 +1,9 @@
+{
+  "name": "shipherd",
+  "version": "0.1.0",
+  "description": "Watches CI for broken/fixed builds, and posts updates to Slack.",
+  "main": "src/shipherd.ts",
+  "repository": "https://github.com/jiaweihli/shipherd.git",
+  "author": "Kevin Li <jiawei.h.li@gmail.com>",
+  "license": "MIT"
+}

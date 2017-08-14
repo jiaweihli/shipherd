@@ -1,6 +1,6 @@
 {
   "name": "shipherd",
-  "version": "0.1.0",
+  "version": "0.0.0-semantic-release",
   "description": "Watches CI for broken/fixed builds, and posts updates to Slack.",
   "main": "src/shipherd.ts",
   "repository": "https://github.com/jiaweihli/shipherd.git",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "bin": "./bin/shipherd.sh",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "@types/chalk": "0.4.31",
@@ -33,6 +34,7 @@
     "commitizen": "2.9.6",
     "commitplease": "2.7.10",
     "cz-conventional-changelog": "2.0.0",
+    "semantic-release": "7.0.1",
     "tslint": "5.1.0"
   },
   "config": {

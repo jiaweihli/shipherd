@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "commitizen": "2.9.6",
+    "commitplease": "2.7.10",
     "cz-conventional-changelog": "2.0.0",
     "tslint": "5.1.0"
   },
@@ -38,5 +39,20 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "style",
+      "test"
+    ]
   }
 }

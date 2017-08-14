@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/shipherd
+    docker:
+      - image: node:boron
+    steps:
+      - checkout
+      - restore_cache:
+          key: node-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: Installing JS dependencies
+          command: yarn
+      - save_cache:
+          key: node-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - 'node_modules'
+      - run:
+          name: Validating commit messages
+          command: |
+            if [ `git rev-parse --verify refs/heads/origin/master` ]; then
+              yarn commitplease origin/master..HEAD
+            fi
+      - run:
+          name: Linting code
+          command: make lint

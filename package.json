@@ -7,6 +7,9 @@
   "author": "Kevin Li <jiawei.h.li@gmail.com>",
   "license": "MIT",
   "bin": "./bin/shipherd.sh",
+  "scripts": {
+    "commit": "git-cz"
+  },
   "dependencies": {
     "@types/chalk": "0.4.31",
     "@types/config": "0.0.32",
@@ -27,6 +30,7 @@
     "when": "3.7.8"
   },
   "devDependencies": {
+    "commitizen": "2.9.6",
     "tslint": "5.1.0"
   }
 }

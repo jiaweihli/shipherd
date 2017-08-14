@@ -33,6 +33,7 @@
   "devDependencies": {
     "commitizen": "2.9.6",
     "commitplease": "2.7.10",
+    "cracks": "3.1.2",
     "cz-conventional-changelog": "2.0.0",
     "semantic-release": "7.0.1",
     "tslint": "5.1.0"
@@ -56,5 +57,15 @@
       "style",
       "test"
     ]
+  },
+  "release": {
+    "verifyRelease": {
+      "path": "cracks",
+      "paths": [
+        "test",
+        "package.json"
+      ],
+      "silent": true
+    }
   }
 }

@@ -4,7 +4,7 @@
 
 <p align='center'>
   <a href='https://www.npmjs.com/package/shipherd'>
-    <img src='https://badge.fury.io/js/shipherd.svg alt='npm version'>
+    <img src='https://badge.fury.io/js/shipherd.svg' alt='npm version'>
   </a>
 
   <a href='https://circleci.com/gh/jiaweihli/shipherd'>
